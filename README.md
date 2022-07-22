@@ -13,3 +13,5 @@ All notebooks can work in google colab.(Change Runtime Type to GPU)
 5. Transformer. Scaled dot product attention and Multi-Head Attention Layer. The Transformer architecture is based on the Multi-Head Attention layer and applies multiple of them in a ResNet-like block(Layernorm). Explore positional encoding(Since transformer is permutation-equivariant and learning rate warm up(gradient). Usage example: Sequence-to-Sequence problem(reverse the sequence). Set Anomally Detection(no need for positional encoding).
 
 6. RNN. Grpha Convolution Network(GCN) and Graph Attention Network(GAT). Tasks: Node-level task(node classification). Graph-level task(graph classfication).
+
+7. Energy_Generative. Energy-based Generative Model. Using MCMC(Markov Chain Monte Carlo) sampling to generate fake images from CNN model. Using contrastive divergence loss (L_DC) to train the model.
