@@ -14,6 +14,6 @@ All notebooks can work in google colab.(Change Runtime Type to GPU)
 
 6. RNN. Grpha Convolution Network(GCN) and Graph Attention Network(GAT). Tasks: Node-level task(node classification). Graph-level task(graph classfication).
 
-7. Energy_Generative. Energy-based Generative Model. Using MCMC(Markov Chain Monte Carlo) sampling to generate fake images from CNN model. Using contrastive divergence loss (L_DC) to train the model.
+7. Energy_Generative. Dataset are viewed as samplers of true data distribution which we don't know. We choose to use a Energy-based Generative Model to simulate that probability distribution. Using MCMC(Markov Chain Monte Carlo) sampling to generate fake images from CNN model. MCMC would start at a random vector and update using the gradient of CNN model at this point. Then, we can use contrastive divergence loss (L_DC) between output of real images and output of fake images to train the model and update the parameter of the model. Finally, the model can generate images similar to images in the dataset.
 
 8. AutoEncoder. Use CNN network as encoder to encode the images as latent vectors(latent_dims). Then using transpose convolution network as decoder to reconstruct the images. Using MSE as loss function to measure the distance between input images and reconstructed images. When using small latent_dims, the reconstructed images are blur and reflect rough shape.
