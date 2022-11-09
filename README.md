@@ -1,5 +1,7 @@
 # Deep Learning Notebooks
 
+https://uvadlc-notebooks.readthedocs.io/en/latest/index.html
+
 All notebooks can work in google colab.(Change Runtime Type to GPU)
 
 1. Pytorch_basic. Pytorch basic and deeping learning training and evaluating(XOR classify as an example)
