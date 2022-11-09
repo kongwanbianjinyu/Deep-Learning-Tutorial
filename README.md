@@ -1,7 +1,9 @@
 # Deep Learning Notebooks
 
 Ref:
+
 https://uvadlc-notebooks.readthedocs.io/en/latest/index.html
+
 https://pytorch-lightning.readthedocs.io/en/stable/notebooks/course_UvA-DL/01-introduction-to-pytorch.html
 
 All notebooks can work in google colab.(Change Runtime Type to GPU)
